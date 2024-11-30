@@ -15,18 +15,20 @@
 #include <iostream>
 using namespace std;
 
+
+
 int main()
 {
 // Логика 1
     int A;
-    std::cout << "Enter A: "; //получили число
-    std::cin >> A;
+    cout << "Enter A: "; //получили число
+    cin >> A;
     int B;
-    std::cout << "Enter B: "; //получили число
-    std::cin >> B;
+    cout << "Enter B: "; //получили число
+    cin >> B;
     int C;
-    std::cout << "Enter C: "; //получили число
-    std::cin >> C;
+    cout << "Enter C: "; //получили число
+    cin >> C;
 
     if (A > B && B > C)
     {
@@ -42,8 +44,8 @@ int main()
 
 // Ввод ошибки
     int N;
-    std::cout << "число ошибки (0-3): "; //получили число
-    std::cin >> N;
+    cout << "число ошибки (0-3): "; //получили число
+    cin >> N;
 
     switch (N) 
     {
@@ -66,8 +68,8 @@ int main()
 
 //значение x
     int x;
-    std::cout << "Enter x: "; //получили число
-    std::cin >> x;
+    cout << "Enter x: "; //получили число
+    cin >> x;
 
     if (x == -1) //если х=-1, то выводим "Negative number"
     {
